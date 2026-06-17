@@ -278,6 +278,7 @@ footer{
     align-items: center;
     gap: 62px;
     margin: 12px;
+    flex-wrap: wrap;
     
 }
 #FB{
@@ -289,6 +290,23 @@ footer{
 #tiktok{
     width: 55px;
 }
-#youtube{
+.youtube{
     width: 55px;
 }   
+
+@media (max-width:600px) {
+    #FB{
+        width: 25px;
+    }
+    
+    #insta{
+        width: 25px;
+    }
+    
+    #tiktok{
+        width: 25px;
+    }
+    .youtube{
+        width: 25px !important;
+    }
+}
