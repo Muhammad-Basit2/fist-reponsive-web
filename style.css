@@ -117,6 +117,7 @@ nav {
     font-weight: bold;
     border-radius: 7px;
     font-size: large;
+    cursor: pointer;
 
 }
 
@@ -130,6 +131,7 @@ nav {
     font-size: large;
     box-shadow: 5px 5px 5px black;
     text-shadow: 5px 5px 5px black;
+    cursor: pointer;
 
 }
 
@@ -244,8 +246,17 @@ nav {
     box-shadow: 5px 5px 5px black;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    
 
 
+}
+.bookbtn:hover{
+    background: rgb(255, 77, 77);
+    width: 85px;
+    height: 45px;
+    cursor: pointer;
+    color: aliceblue;
 }
 .courses{
     display: flex;
@@ -263,20 +274,21 @@ footer{
 }
 .links{
     display: flex;
-    flex-direction: column;
-    gap: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 62px;
     margin: 12px;
     
 }
 #FB{
-    width: 75px;
+    width: 55px;
 }
 #insta{
-    width: 75px;
+    width: 55px;
 }
 #tiktok{
-    width: 75px;
+    width: 55px;
 }
 #youtube{
-    width: 75px;
+    width: 55px;
 }   
